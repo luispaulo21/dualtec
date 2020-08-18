@@ -1,0 +1,79 @@
+.findBackground {
+	max-width: 1280px;
+	width: 100%;
+	height: 500px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: #7040D6;
+}
+
+.find {
+	width: 865px;
+
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.find__location {
+	width: 334px;
+}
+
+.location__title,
+.contact__title {
+	font-size: 24px;
+	line-height: 36px;
+	color: #F2F2F2;
+	font-weight: bold;
+}
+
+.location__subtitle,
+.contact__subtitle {
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: bold;
+	color: #f2f2f2;
+
+	margin-top: 20px;
+}
+
+.location__description,
+.contact__description {
+	font-size: 18px;
+	line-height: 27px;
+	color: #CCCCCC;
+}
+
+.location__map {
+	width: 334px;
+	height: 199px;
+	margin-top: 20px;
+}
+
+.find__contact {
+	width: 	174px;
+}
+
+.contact__social {
+	margin-top: 20px;
+}
+
+.social__item {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.social__item--disablemargin {
+	display: inline-block;
+	margin-right: 0;
+}
+
+.social__item .item__image {
+	width: 25px;
+	height: 25px;
+
+
+}

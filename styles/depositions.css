@@ -1,0 +1,57 @@
+.depositionsBackground {
+	width: 100%;
+	height: 585px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.depositions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.depositions__title {
+	font-size: 24px;
+	line-height: 36px;
+
+	color: #181F27;
+}
+
+.depositions__customers {
+	width: 728px;
+
+	margin-top: 40px;
+
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.customers__client {
+	width: 197px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.client__name {
+	margin-top: 10px;
+
+	font-size: 18px;
+	line-height: 27px;
+
+	color: #181F27;
+}
+
+.client__comment {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+
+	color: #3E3E47;
+}
